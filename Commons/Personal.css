@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+	 Standard Browser Dimension
+			1366 * 643
+*/ 
+
+header{
+	width: 1366px;
+	height: 161px;
+	background-color: #68566E;
+}
+
+#heading{
+	background-color: #5e4766;
+	width: 1066px;
+	height: 64px;
+	display:inline-block;
+	position: absolute;
+}
+
+#logo{
+	position: relative;
+	left: 10px;
+	top: 10px;
+	height: 44px;
+	width: 74px;
+	display:inline;
+}
+
+#Personal_Info{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background-color: #5e4766;
+	color: #22003E;
+	position: absolute;
+	left: 1066px;
+	height: 160px;
+	width: 300px;
+}
+
+#Info{
+	padding-top: 70px;
+	padding-left: 20px;
+	display:inline-block;
+}
+
+#Personal_Info img{
+	width: 140px;
+	height: 140px;
+	float: right;
+	position: absolute;
+	right: 24px;
+	top: 8px;
+	border:solid 2px #200134;
+}
+
+body{
+	background-color: #68566E;
+	padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+#Button_Pain{
+	background-color: #8e6b99;
+	position: absolute;
+	left: 1066px;
+	height: 483px;
+	top: 160px;
+	width: 300px;
+}
+
+#Content{
+	display:inline;
+	height: 580px;
+}
+
+iframe{
+	position:absolute;
+	top: 80px;
+	left: 14px;
+	width: 1034px;
+	height: 443px;
+	border:solid 2px #200134;
+}
+
+.Info:link{
+	text-decoration:none;
+	color: #22003E;
+}
+
+.Info:visited{
+	text-decoration:none;
+	color: #22003E;
+}
+
+.Info:active{
+	text-decoration:none;
+	color: #22003E;
+}
+
+
+.Info:hover{
+	color:#eac1f7;
+}
+
+
+.Menu_Link:link{
+	display:block;
+	text-decoration:none;
+	position: relative;
+	left: 50px;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	background: -webkit-linear-gradient(top, #fd9884, #fd6f6e); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(top, #fd9884, #fd6f6e); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(top, #fd9884, #fd6f6e); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(top, #fd9884, #fd6f6e); /* Standard syntax */
+	color: #22003E;
+	line-height: 40px;
+	border-radius: 2px;
+	border: none;
+}
+
+.Menu_Link:active{
+	display:block;
+	text-decoration:none;
+	position: relative;
+	left: 50px;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	background: -webkit-linear-gradient(top, #fd9884, #fd6f6e); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(top, #fd9884, #fd6f6e); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(top, #fd9884, #fd6f6e); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(top, #fd9884, #fd6f6e); /* Standard syntax */
+	color: #d1c7b5;
+	line-height: 40px;
+	border-radius: 2px;
+	border: none;
+	/*border:solid 2px #200134;*/
+}
+
+.Menu_Link:visited{
+	display:block;
+	text-decoration:none;
+	position: relative;
+	left: 50px;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	background: -webkit-linear-gradient(top, #fd9884, #fd6f6e); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(top, #fd9884, #fd6f6e); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(top, #fd9884, #fd6f6e); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(top, #fd9884, #fd6f6e); /* Standard syntax */
+	color: #d1c7b5;
+	line-height: 40px;
+	border-radius: 2px;
+	border: none;
+	/*border:solid 2px #200134;*/
+}
+
+.Menu_Link:hover{
+	color: #8e6b99;
+	box-shadow: 0 0 5px 2px #68566E;
+	/*background-color: #504154;*/
+	/*border: solid 2px #504154;*/
+}
+
+
+
+#ChiLoSa_btn{
+	position: relative;
+	top: 136px;
+}
+
+#IoLoSo_btn{
+	position: relative;
+	top: 161px;
+}
+
+#Categorie_btn{
+	position: relative;
+	top: 186px;
+}
+
+#LogOut_btn{
+	position: relative;
+	top: 246px;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: #eac1f7;
+    border-left: 1px solid #200134;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #68566E;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #5e4766;
+}
+
+
+footer{
+	width: 1034px;
+	height: 100px;
+	position: absolute;
+	bottom: 0px;
+	left: 16px;
+	background-color: #504154;
+	text-align: center;
+}
+
+
+#Descrizione{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	line-height:100px;
+	vertical-align: middle;	     
+}

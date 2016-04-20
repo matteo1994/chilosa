@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background-color: #eac1f7;
+	padding: 0px;
+    border: 0px;
+    margin: 0px;
+	color: #22003E;
+}
+
+#Corpo{
+	display: block;
+	padding-left: 10px;
+}
+
+#Intro{
+	border: 0px;
+    margin: 0px;
+	padding-left: -10px;
+	text-align: center;
+	height:auto;
+	width:auto;
+}
+
+#profilo{
+	width: 140px;
+	height: 140px;
+	border:solid 2px #200134;
+}
+
+.part{
+	display: block;
+	font-size: 24px;
+	color: #200134;
+}
+
+.mid{
+	display: block;
+	font-size: 20px;
+	color: #200134;
+}
+
+.allineamento{
+	text-align: left;
+}
+
+textarea{
+	display: block;
+	background-color: #504154;
+	color: #eac1f7;
+	width: 500px;
+	height: 50px;
+}
+
+#img{
+	background-color: #504154;
+	color: #eac1f7;
+	border: none;
+}
+
+
+.init{
+	display: inline-block;
+}
+
+#Text{
+	width: 500px;
+	height: 50px;
+}
+
+.Invio{
+	display: block;
+	width: 150px;
+	height: 30px;
+	font-size: 18px;
+	background-color: #8e6b99;
+	color: #eac1f7;
+	border:solid 2px #200134;
+}
+
+
+#Open_send{
+	width: 200px;
+}
+
+#Survey_send{
+	width: 200px;
+}
+
+
+.ioloso {
+	background-color: #8e6b99;
+	border:solid 2px #200134;
+	border-collapse: collapse;
+}
+
+.ioloso td{
+	border:solid 1px #eac1f7;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    /*margin:-1px 4px 0 0;*/
+    vertical-align: middle;
+    background: url(checkbox_sheet.png) left top no-repeat;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked + label span {
+    background:url(checkbox_sheet.png) -19px top no-repeat;
+}
+
+
+.table_ioloso:hover{
+	color: #eac1f7;
+	text-decoration:underline;
+}
+
+.lightbg:hover{
+	color: #8e6b99;
+	text-decoration:underline;
+}
+
+a:link, a:visited, a:active {
+	display: inline;
+	text-decoration:none;
+	color: #22003E;
+}
+
+a:hover{
+	color: #eac1f7;
+}
+
+.Back_Button:link{
+	display: inline-block;
+	text-align: center;
+	width: 150px;
+	height: 25px;
+	font-size: 18px;
+	background-color: #8e6b99;
+	color: #eac1f7;
+	border:solid 2px #200134;
+}
+
+.Back_Button:visited{
+	display: inline-block;
+	text-align: center;
+	width: 150px;
+	height: 25px;
+	font-size: 18px;
+	background-color: #8e6b99;
+	color: #eac1f7;
+	border:solid 2px #200134;
+}
+
+.Back_Button:active{
+	display: inline-block;
+	text-align: center;
+	width: 150px;
+	height: 25px;
+	font-size: 18px;
+	background-color: #8e6b99;
+	color: #eac1f7;
+	border:solid 2px #200134;
+}

@@ -1,0 +1,499 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #68566E;
+	padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+#MainPanel{
+	position: absolute;
+	display: block;
+  	height: 520px;
+	width: 1074px;
+	background-color: #68566E;
+	z-index: 1;
+}
+
+#Logo{
+	height: 500px;
+	width: 1074px;
+	position: absolute;
+	/*background-color:#FFF;*/
+}
+
+#C{
+	position: absolute;
+	left:428px;
+	top: 140px;
+	
+	
+	opacity:0;
+	animation: c 2s ease-out;
+	animation-fill-mode: forwards;
+	
+/* Chrome, Safari, Opera */
+	-webkit-animation-name: c; 
+    -webkit-animation-duration: 2s;  
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-out;
+}
+
+
+#L{
+	position: absolute;
+	left: 519px;
+	top: 135px;
+	
+	opacity:0;
+	animation:l 2s ease-out;
+	animation-fill-mode: forwards;
+	
+/* Chrome, Safari, Opera */
+	-webkit-animation-name: l; 
+    -webkit-animation-duration: 2s;  
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-out;
+}
+
+
+#S{
+	position: absolute;
+	left: 530px;
+	top: 185px;
+	
+	opacity:0;
+	animation: s 2s ease-out;
+	animation-fill-mode: forwards;
+	
+/* Chrome, Safari, Opera */
+	-webkit-animation-name: s; 
+    -webkit-animation-duration: 2s;  
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-out;
+}
+
+#HI{
+	position: absolute;
+	left: 120px;
+	top: 230px;
+	
+	opacity:0;
+	animation: extended 1s ease-out;
+	animation-fill-mode: forwards;
+	animation-delay: 1.9s;
+	
+/* Chrome, Safari, Opera */
+	-webkit-animation-name: extended; 
+    -webkit-animation-duration: 1s;  
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-delay:1.9s;
+	
+}
+
+#O{
+	position: absolute;
+	left: 233px;
+	top: 198px;
+	
+	opacity:0;
+	animation: extended 1s ease-out;
+	animation-fill-mode: forwards;
+	animation-delay: 1.9s;
+	
+/* Chrome, Safari, Opera */
+	-webkit-animation-name: extended; 
+    -webkit-animation-duration: 1s;  
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-delay:1.9s;
+	
+}
+
+#A{
+	position: absolute;
+	left: 400px;
+	top: 115px;
+	
+	opacity:0;
+	animation: extended 1s ease-out;
+	animation-fill-mode: forwards;
+	animation-delay: 1.9s;
+	
+/* Chrome, Safari, Opera */
+	-webkit-animation-name: extended; 
+    -webkit-animation-duration: 1s;  
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-delay:1.9s;
+	
+}
+
+#MainPanel form{
+	background-color: transparent;
+	text-align:right;
+	line-height:180%;
+	position:absolute;
+	height: 500px;
+	width: 1074px;
+	
+}
+
+#Login input{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	text-align: right;
+	background: -webkit-linear-gradient(left, #fd9884, #fd6f6e); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(left, #fd9884, #fd6f6e); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(left, #fd9884, #fd6f6e); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(left, #fd9884, #fd6f6e); /* Standard syntax */
+  	border-radius: 4px;
+	border: none;
+	color: #d1c7b5;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #d1c7b5;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #d1c7b5;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #d1c7b5;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #d1c7b5;
+}
+
+#Login{
+	position:relative;
+	top:140px;
+	right: 64px;
+	
+}
+
+#login_field1{
+	position:relative;
+	height: 30px;
+	width: 520px;
+	display:block;
+	left: 550px;
+	
+	opacity:0;
+	animation: login_field1 1s ease-out;
+	animation-fill-mode: forwards;
+	animation-delay: 1.7s;
+	
+/* Chrome, Safari, Opera */
+	-webkit-animation-name: login_field1; 
+    -webkit-animation-duration: 1s;  
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-delay:1.7s;
+}
+
+#login_field2{
+	position: relative;
+	top: 32px;
+	height: 30px;
+	width: 700px;
+	display:block;
+	left: 370px;
+	
+	opacity:0;
+	animation: login_field2 1s ease-out;
+	animation-fill-mode: forwards;
+	animation-delay: 2s;
+	
+/* Chrome, Safari, Opera */
+	-webkit-animation-name: login_field2; 
+    -webkit-animation-duration: 1s;  
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-delay:2s;
+}
+
+#LoginButtons{
+	position:relative;
+	top: 200px;
+	right: 64px;	
+}
+
+#LoginButtons input{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	border-radius: 4px;
+	border: none;
+	height: 30px;
+	width: 130px;
+	
+	opacity:0;
+}
+
+#Registrati{
+	background-color: #d0c9b6;
+	color: #68566E;
+	position:relative;
+	
+	animation: login_buttons 1s ease-out;
+	animation-fill-mode: forwards;
+	animation-delay: 2.7s;
+	
+/* Chrome, Safari, Opera */
+	-webkit-animation-name: login_buttons; 
+    -webkit-animation-duration: 1s;  
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-delay: 2.7s;
+}
+
+
+#Accedi{
+	position:relative;
+	background: -webkit-linear-gradient(#b67092, #a6547c); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#b67092, #a6547c); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#b67092, #a6547c); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#b67092, #a6547c); /* Standard syntax */
+	color: #fd9884;	
+	
+	animation: login_buttons 1s ease-out;
+	animation-fill-mode: forwards;
+	animation-delay: 2.5s;
+	
+/* Chrome, Safari, Opera */
+	-webkit-animation-name: login_buttons; 
+    -webkit-animation-duration: 1s;  
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-out;	
+	-webkit-animation-delay: 2.5s;
+}
+
+#Descrizione{
+	background-color: #504154;
+	position: absolute;
+	top: 320px;
+	left: 170px;
+	height: 120px;
+	width: 795px;
+	text-align: center;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #FFF;
+	padding-top: 30px;
+	border-radius: 10px;
+	
+	opacity:0;
+	animation: fade_FromBottomToTop 1s ease-out;
+	animation-fill-mode: forwards;
+	animation-delay: 2.5s;
+	
+/* Chrome, Safari, Opera */
+	-webkit-animation-name: fade_FromBottomToTop; 
+    -webkit-animation-duration: 1s;  
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-delay: 2.5s;
+}
+
+
+#regPanel{
+	background-image:url(backPopForm.png);
+	padding: 0px;
+    border: 0px;
+    margin: 0px;
+	position: absolute;
+  	height: 500px;
+	width: 1070px;
+}
+
+#regPanel form{
+	background-image:url(backform.png);
+	width: 400px;
+	height: 280px;
+	position:relative;
+	top: 110px;
+	left: 335px;
+}
+
+#regPanel input{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	text-align: right;
+  	transition: box-shadow 0.3s, border 0.3s;
+	background: -webkit-linear-gradient(left, #fd9884, #fd6f6e); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(left, #fd9884, #fd6f6e); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(left, #fd9884, #fd6f6e); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(left, #fd9884, #fd6f6e); /* Standard syntax */
+  	border-radius: 4px;
+	border: none;
+	color: #d1c7b5;
+}
+
+input:focus, input.focus{
+  	box-shadow: 0 0 5px 1px #68566E;
+	border: solid 1px #707070;
+}
+
+#input{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	text-align: center;
+	padding-top: 13px;
+	line-height: 180%;
+}
+
+#alarm{
+	color: #F00;
+	font-size: 12px;
+	line-height: 30%;
+}
+
+#condition {
+	text-align:center;
+	line-height:60%;
+}
+
+#formButton{
+	text-align: center;
+}
+
+#formButton input{
+	border-radius: 5px;
+    background: -webkit-linear-gradient(#b67092, #a6547c); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#b67092, #a6547c); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#b67092, #a6547c); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#b67092, #a6547c); /* Standard syntax */
+	width: 30%;
+	height: 120%;
+  	text-align:center;
+	color: -webkit-linear-gradient(left, #fd9884, #fd6f6e); /* For Safari 5.1 to 6.0 */
+  	color: -o-linear-gradient(left, #fd9884, #fd6f6e); /* For Opera 11.1 to 12.0 */
+  	color: -moz-linear-gradient(left, #fd9884, #fd6f6e); /* For Firefox 3.6 to 15 */
+  	color: linear-gradient(left, #fd9884, #fd6f6e); /* Standard syntax */
+}
+
+
+
+
+/*  Animations */
+
+@-webkit-keyframes c {
+    0%{opacity:0;top:140px;left:428px;}
+	50%{opacity:1;top:140px;left:428px;}
+	80%{opacity:1;top:218px;left:348px;}
+	92%{opacity:1;top:218px;left:5px;}
+	100%{opacity:1;top:218px;left:25px;}
+}
+
+@-webkit-keyframes l {
+     0%{opacity:0;top:135px;left:519px;}
+	50%{opacity:1;top:135px;left:519px;}
+	80%{opacity:1;top:135px;left:519px;}
+	92%{opacity:1;top:135px;left:174px;}
+	100%{opacity:1;top:135px;left:194px;}
+}
+
+@-webkit-keyframes s {
+    0%{opacity:0;top:185px;left:530px;}
+	50%{opacity:1;top:185px;left:530px;}
+	80%{opacity:1;top:110px;left:605px;}
+	92%{opacity:1;top:110px;left:260px;}
+	100%{opacity:1;top:110px;left:280px;}
+}
+
+@-webkit-keyframes extended {
+    from{opacity:0;}
+	to{opacity:1;}
+}
+
+@-webkit-keyframes login_buttons{
+	 0%{opacity:0;right:100px;}
+	60%{opacity:0;right:100px;}
+	100%{opacity:1;right:0px;}
+}
+
+
+@-webkit-keyframes login_field1{
+	 0%{opacity:0;left:520px;}
+	60%{opacity:0;left:520px;}
+	100%{opacity:1;left:550px;}
+}
+
+@-webkit-keyframes login_field2{
+	 0%{opacity:0;left:340px;}
+	60%{opacity:0;left:340px;}
+	100%{opacity:1;left:370px;}
+}
+
+
+@-webkit-keyframes fade_FromBottomToTop{
+	 0%{opacity:0;top:330px;}
+	60%{opacity:0;top:330px;}
+	100%{opacity:1;top:320px;}
+}
+
+@keyframes c {
+    0%{opacity:0;top:140px;left:428px;}
+	50%{opacity:1;top:140px;left:428px;}
+	80%{opacity:1;top:218px;left:348px;}
+	92%{opacity:1;top:218px;left:5px;}
+	100%{opacity:1;top:218px;left:25px;}
+}
+
+
+@keyframes l {
+     0%{opacity:0;top:135px;left:519px;}
+	50%{opacity:1;top:135px;left:519px;}
+	80%{opacity:1;top:135px;left:519px;}
+	92%{opacity:1;top:135px;left:174px;}
+	100%{opacity:1;top:135px;left:194px;}
+}
+
+@keyframes s {
+    0%{opacity:0;top:185px;left:530px;}
+	50%{opacity:1;top:185px;left:530px;}
+	80%{opacity:1;top:110px;left:605px;}
+	92%{opacity:1;top:110px;left:260px;}
+	100%{opacity:1;top:110px;left:280px;}
+}
+
+@keyframes extended {
+    from{opacity:0;}
+	to{opacity:1;}
+}
+
+@keyframes login_buttons{
+	 0%{opacity:0;right:100px;}
+	60%{opacity:0;right:100px;}
+	100%{opacity:1;right:0px;}
+}
+
+@keyframes login_field1{
+	 0%{opacity:0;left:520px;}
+	60%{opacity:0;left:520px;}
+	100%{opacity:1;left:550px;}
+}
+
+@keyframes login_field2{
+	 0%{opacity:0;left:340px;}
+	60%{opacity:0;left:340px;}
+	100%{opacity:1;left:370px;}
+}
+
+@keyframes fade_FromBottomToTop{
+	 0%{opacity:0;top:330px;}
+	60%{opacity:0;top:330px;}
+	100%{opacity:1;top:320px;}
+}
+
+
+
+
+
+

@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #68566E;
+	padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+#MainPanel{
+	position: absolute;
+	display: block;
+  	height: 520px;
+	width: 1074px;
+	background-color: #68566E;
+	z-index: 1;
+}
+
+#Logo{
+	height: 500px;
+	width: 1074px;
+	position: absolute;
+	/*background-color:#FFF;*/
+}
+
+#C{
+	position: absolute;
+	left:25px;
+	top: 218px;
+}
+
+
+#L{
+	position: absolute;
+	left: 194px;
+	top: 135px;
+}
+
+
+#S{
+	position: absolute;
+	left: 280px;
+	top: 110px;
+}
+
+#HI{
+	position: absolute;
+	left: 120px;
+	top: 230px;
+}
+
+#O{
+	position: absolute;
+	left: 233px;
+	top: 198px;
+	
+}
+
+#A{
+	position: absolute;
+	left: 400px;
+	top: 115px;
+}
+
+#MainPanel form{
+	background-color: transparent;
+	text-align:right;
+	line-height:180%;
+	position:absolute;
+	height: 500px;
+	width: 1074px;
+	
+}
+
+#Login input{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	text-align: right;
+	background: -webkit-linear-gradient(left, #fd9884, #fd6f6e); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(left, #fd9884, #fd6f6e); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(left, #fd9884, #fd6f6e); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(left, #fd9884, #fd6f6e); /* Standard syntax */
+  	border-radius: 4px;
+	border: none;
+	color: #d1c7b5;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #d1c7b5;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #d1c7b5;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #d1c7b5;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #d1c7b5;
+}
+
+#Login{
+	position:relative;
+	top:140px;
+	right: 64px;
+	
+}
+
+#login_field1{
+	position:relative;
+	height: 30px;
+	width: 520px;
+	display:block;
+	left: 550px;
+	
+}
+
+#login_field2{
+	position: relative;
+	top: 32px;
+	height: 30px;
+	width: 700px;
+	display:block;
+	left: 370px;
+	
+}
+
+#LoginButtons{
+	position:relative;
+	top: 200px;
+	right: 64px;	
+}
+
+#LoginButtons input{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	border-radius: 4px;
+	border: none;
+	height: 30px;
+	width: 130px;	
+}
+
+#Registrati{
+	background-color: #d0c9b6;
+	color: #68566E;
+	position:relative;
+}
+
+
+#Accedi{
+	position:relative;
+	background: -webkit-linear-gradient(#b67092, #a6547c); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#b67092, #a6547c); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#b67092, #a6547c); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#b67092, #a6547c); /* Standard syntax */
+	color: #fd9884;	
+}
+
+#Descrizione{
+	background-color: #504154;
+	position: absolute;
+	top: 320px;
+	left: 170px;
+	height: 120px;
+	width: 795px;
+	text-align: center;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #FFF;
+	padding-top: 30px;
+	border-radius: 10px;
+	
+}
+
+
+#regPanel{
+	background-image:url(backPopForm.png);
+	padding: 0px;
+    border: 0px;
+    margin: 0px;
+	position: absolute;
+  	height: 500px;
+	width: 1070px;
+}
+
+#regPanel form{
+	background-image:url(backform.png);
+	width: 400px;
+	height: 280px;
+	position:relative;
+	top: 110px;
+	left: 335px;
+}
+
+#regPanel input{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	text-align: right;
+  	transition: box-shadow 0.3s, border 0.3s;
+	background: -webkit-linear-gradient(left, #fd9884, #fd6f6e); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(left, #fd9884, #fd6f6e); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(left, #fd9884, #fd6f6e); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(left, #fd9884, #fd6f6e); /* Standard syntax */
+  	border-radius: 4px;
+	border: none;
+	color: #d1c7b5;
+}
+
+input:focus, input.focus{
+  	box-shadow: 0 0 5px 1px #68566E;
+	border: solid 1px #707070;
+}
+
+.alert{
+	box-shadow: 0 0 5px 1px #F00; 
+}
+
+#input{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	text-align: center;
+	padding-top: 13px;
+	line-height: 180%;
+}
+
+.alarm{
+	font-family:Arial, Helvetica, sans-serif;
+	color: #F00;
+	font-size: 13px;
+	line-height: 30%;
+}
+
+#LoginAlarm{
+	font-family:Arial, Helvetica, sans-serif;
+	color: #F00;
+	font-size: 14px;
+	line-height: 30%;
+}
+
+#condition {
+	text-align:center;
+	line-height:60%;
+}
+
+#formButton{
+	text-align: center;
+}
+
+#formButton input{
+	border-radius: 5px;
+    background: -webkit-linear-gradient(#b67092, #a6547c); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#b67092, #a6547c); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#b67092, #a6547c); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#b67092, #a6547c); /* Standard syntax */
+	width: 30%;
+	height: 120%;
+  	text-align:center;
+	color: -webkit-linear-gradient(left, #fd9884, #fd6f6e); /* For Safari 5.1 to 6.0 */
+  	color: -o-linear-gradient(left, #fd9884, #fd6f6e); /* For Opera 11.1 to 12.0 */
+  	color: -moz-linear-gradient(left, #fd9884, #fd6f6e); /* For Firefox 3.6 to 15 */
+  	color: linear-gradient(left, #fd9884, #fd6f6e); /* Standard syntax */
+}
+
+
+#Conferma{
+	padding-top: 100px;
+	text-align:center;
+	color: #a6547c;
+	font-weight:bold;
+}
+
+
+
+
